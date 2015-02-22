@@ -1,0 +1,62 @@
+---
+title       : Next Year's Salary Estimate Based on Current Salary
+subtitle    : Developing Data Products JH Feb 2015
+author      : DSRJR
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## What purpose does this App serve?
+
+Thinking about making a large purchase? A home? A car?  
+Wondering what your future budget might look like?  
+This app can help you make these decisions based on your current salary!
+
+--- .class #id
+
+## What does the App do?
+
+This app can estimate your next year's salary based on your current salary.
+Knowing what next year's salary will be can help you create a budget and plan
+your financial future!
+
+--- .class #id
+
+## How does it work?
+
+This app takes your current salary as an input and uses an estimated average 
+increase in income to calculate your salary for the next year. The current 
+estimated salary increase per year is about 3% but because you are smart enough
+to be taking this class, your salary increase will most likely be more. This app
+uses an increase of 3.5% to calculate the future salary.
+
+Here is an example of the code:
+
+```r
+salary <- 50000
+futureSalary <- salary * 1.035
+futureSalary
+```
+
+```
+## [1] 51750
+```
+
+--- .class #id
+
+## How can you utilize this App?
+
+You can use this [app link](https://drandazzo9.shinyapps.io/David/)
+to access the app. Input your current salary and an estimate of your next year's
+salary will be given to you!  
+Give it a try!
+
+
+
+
+
